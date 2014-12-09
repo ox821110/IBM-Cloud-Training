@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 全局样式 */
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div, dl, dt, dd, input,em { margin: 0; padding: 0; }
+body { font-size: 12px; font-family:Helvetica,​Tahoma,​Arial,​sans-serif; background:#ffffff;}
+ul, ol { list-style-type: none; }
+select, input, img { vertical-align: middle; outline: none; }
+a{text-decoration: none; outline: none;}
+html { overflow-x: hidden; }
+.clearfix:after { content: ""; display: block; clear: both; }
+.clearfix { zoom: 1; }
+.fl { float: left; }
+.fr { float: right;}
+
+.bluemix-banner-con{width:100%; height:316px; background:url(../images/banner-conner.jpg) right 26px no-repeat #02add1;}
+.bluemix-banner{width:1120px; height:316px; margin:0 auto; background:url(../images/banner.jpg);text-align:left;}
+.bluemix-banner-iic{width:100%; height:100%; margin:0 auto; }
+.bluemix-banner p{font-family:'Microsoft Yahei'; width:1120px; color:#fff; font-size:38px; float:left; line-height:45px;  margin-top:90px; margin-left:90px;}
+.bluemix-banner a{ display:block; float:left; width:130px; height:32px; line-height:28px; background:url(../images/right_arrow.png) 15px center no-repeat #f04e37; border-radius:4px;font-family:'Microsoft Yahei';color:#fff; font-size:18px; text-indent:35px;margin-top:20px; margin-left:90px;}
+.bluemix-banner a:hover{background:url(../images/right_arrow.png) 15px center no-repeat #ef6f5d;}
+
+.bluemix-menu-con{width:100%; height:49px; background:url(../images/menu_con_bg.png) repeat-x;}
+.bluemix-menu{width:960px; height:49px; margin:0 auto; text-align:left;}
+.bluemix-menu a{ display:block; height:49px; padding:0px 35px; margin-right:20px; line-height:40px; color:#fff; float:left;font-family:'Microsoft Yahei'; font-size:16px;}
+.bluemix-menu .active{ background:url(../images/menu_bg.png) center no-repeat;}
+
+.center-container{ width:960px; overflow:hidden; margin:0 auto; text-align:left;}
+.bluemix-detail{width:520px;overflow:hidden; float:left; margin-top:35px;}
+.bluemix-detail dt{font-family:'Microsoft Yahei'; font-size:22px; font-weight:bold; color:#0e3665; margin-bottom:15px;}
+.bluemix-detail dd{font-family:'Microsoft Yahei'; font-size:16px;color:#333333; line-height:24px; margin-bottom:15px;}
+
+.bluemix-video{width:400px;overflow:hidden; float:right; margin-top:40px;}
+.bluemix-video dt{width:400px; height:245px;}
+.bluemix-video .video-down{ height:45px; float:center;}
+.bluemix-video .video-down a{ display:block; height:45px; line-height:45px; padding-left:30px; background:url(../images/down-icon.jpg) left center no-repeat;font-family:'Microsoft Yahei'; font-size:16px;color:#2d6b9a; text-decoration:underline;}
+.bluemix-video .video-tip{ float:right; height:45px; line-height:45px;font-family:'Microsoft Yahei'; font-size:14px;color:#333333; }
+
+.iic-video{width:880px;overflow:hidden; float:left; margin:35px 0px 20px 15px;}
+.iic-video dt{font-family:'Microsoft Yahei'; font-size:22px; font-weight:bold; color:#0e3665; margin:30px 0px 15px 0px;}
+.iic-video dd{font-family:'Microsoft Yahei'; font-size:16px;color:#333333; line-height:24px; margin-bottom:15px;}
+
+.process-con{width:100%; overflow:hidden; background-color:#eaeeef; margin-top:10px;}
+.process{width:940px; overflow:hidden; margin:20px auto 5px auto; background:url(../images/line.jpg) center top no-repeat #eaeeef;}
+
+.process-guide{width:940px; height:240px; overflow:hidden; position:relative;}
+.process01{width:355px;height:37px; float:left; background:url(../images/process01_bg.png) no-repeat; position:absolute; left:462px; top:0px;}
+.process01 b{font-family:'Microsoft Yahei'; font-size:20px;color:#42714f; font-weight:bold; height:37px; line-height:37px; float:left; margin-left:30px;}
+.process01 span{font-family:'Microsoft Yahei'; font-size:16px;color:#fff; height:37px; line-height:37px; float:left; margin-left:32px;}
+
+.process02{width:432px;height:37px; float:left; background:url(../images/process02_bg.png) no-repeat; position:absolute; left:45px; top:56px;}
+.process02 b{font-family:'Microsoft Yahei'; font-size:20px;color:#42714f; font-weight:bold; height:37px; line-height:37px; float:right; margin-right:30px;}
+.process02 span{font-family:'Microsoft Yahei'; font-size:16px;color:#fff; height:37px; line-height:35px; float:right; margin-right:32px;}
+
+
+.process03{width:361px;height:37px; float:left; background:url(../images/process03_bg.png) no-repeat;  position:absolute;left:462px; top:110px;}
+.process03 b{font-family:'Microsoft Yahei'; font-size:20px;color:#42714f; font-weight:bold; height:37px; line-height:37px; float:left; margin-left:30px;}
+.process03 span{font-family:'Microsoft Yahei'; font-size:16px;color:#fff; height:37px; line-height:35px; float:left; margin-left:32px;}
+
+.process04{width:306px;height:37px; float:left; background:url(../images/process04_bg.png) no-repeat; position:absolute;left:171px; top:168px;}
+.process04 b{font-family:'Microsoft Yahei'; font-size:20px;color:#42714f; font-weight:bold; height:37px; line-height:37px; float:right; margin-right:30px;}
+.process04 span{font-family:'Microsoft Yahei'; font-size:16px;color:#fff; height:37px; line-height:35px; float:right; margin-right:32px;}
+
+.action-rule{ background:url(../images/shuiyin.jpg) right top no-repeat #fff; border:2px solid #cfdbdb; overflow:hidden; text-align:left; width:936px; border-radius:4px;}
+.action-rule h3{font-family:'Microsoft Yahei'; font-size:22px;color:#0e3665; margin:15px 20px 10px 20px;}
+.action-rule ul{margin:0px 20px 20px 20px;}
+.action-rule ul li{font-family:'Microsoft Yahei'; font-size:14px;color:#666; line-height:26px;}
+
+.center-interv{width:940px; height:56px; background:url(../images/process_dot.png) center center no-repeat;}
+
+.prize-set{background:#fff; border:2px solid #cfdbdb; overflow:hidden; text-align:left; width:936px; border-radius:4px;}
+.prize-set h3{margin:15px 20px 10px 20px;}
+.prize-set h3 b{font-family:'Microsoft Yahei'; font-size:22px;color:#0e3665;}
+.prize-set h3 span{font-family:'Microsoft Yahei'; font-size:14px;color:#666666; padding-left:10px; font-weight:normal;}
+.prize-set h3 span em{ font-style:normal; color:#f04e37;}
+
+.prize-list{width:210px; overflow:hidden; float:left; margin-left:20px; margin-top:20px; margin-bottom:20px;}
+.prize-list dt{width:210px; height:210px; float:left; margin-bottom:10px;}
+.prize-list dd{width:210px;float:left;font-family:'Microsoft Yahei'; font-size:14px;color:#333;line-height:26px; text-align:center;}
+
+.winners{width:936px; height:30px; overflow: hidden; float:left; margin:0px 20px 15px 20px;}
+.winners .scroll-title{height:30px; line-height:30px; float:left;font-family:'Microsoft Yahei'; font-size:16px;color:#f04e37; padding-left:30px; padding-right:10px; background:url(../images/prize_icon.png) left center no-repeat; font-weight:bold;}
+
+.winners .scroll-con{width:790px; height:30px; overflow:hidden; float:left; position:relative;}
+.winners .scroll-con ul{height:30px; overflow:hidden; position:absolute; left:0px; top:0px;}
+.winners .scroll-con ul li{font-family:'Microsoft Yahei'; font-size:14px;color:#666; padding-right:15px; float:left;height:30px; line-height:30px;}
+.winners .scroll-con ul li em{ font-style:normal; color:#f04e37;}
+
+.experience{width:940px; overflow:hidden; margin:0 auto 30px auto; text-align:left;}
+.experience h3{font-family:'Microsoft Yahei'; font-size:22px;color:#0e3665; margin:35px 0px 0px 0px;}
+.experience h4{font-family:'Microsoft Yahei'; font-size:16px;color:#0e3665; margin:0px 0px 0px 10px;}
+.experience dl{ padding-bottom:20px; border-bottom:1px dashed #d1d1d1; overflow:hidden; margin-top:20px;}
+.experience dt{width:128px; height:90px; float:left; margin-top:5px;}
+.experience dt img{ border:1px solid #e0e0e0;}
+.experience .experience-detail{font-family:'Microsoft Yahei'; font-size:14px;color:#333333;}
+.experience .author-name{ text-align:right;font-family:'Microsoft Yahei'; font-size:12px;color:#666; margin-top:10px;}
+.experience h4 a{ display:block; width:126px; height:33px; text-align:center; line-height:33px;font-family:'Microsoft Yahei'; color:#333333; font-size:16px; margin:20px 0px 0px 800px}
+
+
+
+.page-tip{font-family:'Microsoft Yahei'; font-size:20px;color:#0e3665; width:940px; margin:60px auto 40px auto; text-align:center;}
+.left-tip{ text-align:left; margin-top:40px;}
+.page-tip em{ font-style:normal; color:#f04e37;}
+
+.lottery-btn{width:936px; overflow: hidden; float:left; margin:50px auto; text-align:center;}
+.lottery-btn a{ display:block; width:126px; height:35px; text-align:center; line-height:35px; background-color:#f04e37;font-family:'Microsoft Yahei'; font-size:18px;color:#fff; border-radius:2px;margin:0 auto;}
+.lottery-btn a:hover{background-color:#ee6e5b; }
+
+.popup-box{width:511px; height:250px; border:2px solid #565656; background-color:#f9f9f9; border-radius:6px; position:absolute; left:50%; margin-left:-255px; top:450px; z-index:999; display:none;}
+
+.popup-box p{font-family:'Microsoft Yahei'; font-size:22px; color:#000; line-height:40px; margin-top:60px; text-align:center;}
+.popup-box p em{ font-style:normal; color:#f04e37;}
+
+.popup-box .shutoff{width:19px; height:19px; background:url(../images/shutoff.png) left top no-repeat; position:absolute; right:10px; top:10px; cursor:pointer;}
+
+.popup-box a{ display:block; width:86px; height:33px; text-align:center; line-height:33px; background-color:#f04e37;font-family:'Microsoft Yahei'; font-size:18px;color:#fff; border-radius:2px;margin:40px auto 0px auto;}
+.popup-box a:hover{background-color:#ee6e5b;}
+
+.mask{width:100%; height:100%; background:#000; opacity:.3; filter:alpha(opacity:30); z-index:998; left:0; top:0; position:absolute; display:none;}
+
+.guide-title{font-family:'Microsoft Yahei'; font-size:22px; color:#0e3665; font-weight: bold; margin-top:30px; margin-bottom: 10px; }
+.guide-detail{font-family:'Microsoft Yahei'; font-size:16px; color:#333;}
+
+.guide-con{width:940px; margin:30px auto; overflow: hidden; text-align:left;}
+.con-l{width:446px; overflow: hidden; float:left;}
+.con-c{width:36px; overflow: hidden; float:left; margin-left: 6px;}
+.con-r{width:446px; overflow: hidden; float:right;}
+.down{width: 446px; height: 40px; background: url(../images/arrow-down.png) center no-repeat;}
+.right{width:36px; height:26px; background: url(../images/arrow-right.png) center no-repeat; }
+.left{width:36px; height:26px; background: url(../images/arrow-left.png) center no-repeat; }
+.mar1{ margin-top: 147px;}
+.mar2{ margin-top: 374px;}
+.mar3{ margin-top: 300px;}
+.mar4{ margin-top: 341px;}
+.mar5{ margin-top: 430px;}
+.csdn-prize{ width:210px; height: 210px; margin: 50px auto;}
+.share{ text-align: center; height:24px;  margin: 0px auto 40px auto; width:100%; text-align:center;}
+.share span{ display:block; float:left; height:16px; line-height:16px;font-family:'Microsoft Yahei'; font-size:12px; color:#666; margin-top:10px; margin-left:370px;}
+
+.bdsharebuttonbox{ float:left;}
+
+.biaodan li label{font-family:'Microsoft Yahei';}
+ul.biaodan li input.w_h{font-family:'Microsoft Yahei'; font-size:12px; color:#999999;}
+.biaodan li em{font-family:'Microsoft Yahei'; font-size:12px; color:#999999; font-style:normal;}
+ul.biaodan li textarea{font-family:'Microsoft Yahei'; font-size:12px; color:#666;}
+.exp-submit{width:68px; height:33px; line-height:33px; text-align:center; background-color:#f04e37; border:0px; font-family:'Microsoft Yahei'; font-size:18px; color:#fff; border-radius:3px;}
+.submit-form{ margin-bottom:30px;}
+
+.guidebox{width:440px;  border:3px solid #ededed; position:relative;overflow:hidden;}
+.guidebox h3{height:39px; line-height:39px; background-color:#02add1; color:#fff; font-family:'Microsoft Yahei'; font-size:14px; font-weight:normal; text-indent:10px;}
+.guidebox h3 b{ font-size:16px;}
+.guidebox p{color:#333; font-family:'Microsoft Yahei'; font-size:14px; margin:10px;}
+.guidebox p a{ color:#356ea1; text-decoration:underline;}
+.guidebox p em{ color:#f04e37; font-style:normal;}
+.guidebox img{ display:block; margin:15px 10px;}
+.interval{width: 446px; height: 40px;}
+
+.csdn-toolbar .logo .img {background:none;}
+.csdn-toolbar .img {display:none;}
+
+.notice-box{width:191px; height:204px; background:url(../images/notice_bg.jpg); text-align:left; position: fixed; right:0px; bottom:-204px; z-index:1000;}
+.para1{font-family:'Microsoft Yahei'; font-size:20px; color:#f04e37; margin-left:18px; margin-top:24px;}
+.para2{font-family:'Microsoft Yahei'; font-size:16px; color:#333; margin-left:18px; margin-top:8px;}
+.para3{font-family:'Microsoft Yahei'; font-size:30px; color:#03add1; margin-left:18px; margin-top:8px;}
+.para4{font-family:'Microsoft Yahei'; font-size:15px; color:#dc3c00; margin-left:18px; margin-top:8px;}
+.shut-notice{width:16px; height:16px; background:url(../images/shutoff2.png); position:absolute; right:5px; top:5px; cursor:pointer;}
+
+.bluemixHome,.bluemixHome a,.bluemixHome body,.bluemixHome div,.bluemixHome em,.bluemixHome footer,.bluemixHome h1,.bluemixHome h2,.bluemixHome header,.bluemixHome img,.bluemixHome li,.bluemixHome p,.bluemixHome section,.bluemixHome ul {
+	margin: 0;
+	 padding: 0;
+	 border: 0;
+	 font-family:'Microsoft Yahei'; 
+	 font-size:18px; 
+	 color:white;
+	 vertical-align: baseline;
+}
+
+.bluemixHome {
+	line-height: 1;
+	 font-family:'Microsoft Yahei';
+	 font-weight: 300;
+}
+
+.bluemixHome ol, ul {
+	list-style: none;
+}
+
+.bluemixHome footer,.bluemixHome header,.bluemixHome section {
+	display: block;
+}
+
+.bluemixHome .footer {
+	background-color: #515151;
+	 color: white;
+	 font-size: 0.66669em;
+	 position: relative;
+
+}
+
+ @media (min-width: 767px) {
+	.bluemixHome .footer {
+
+		 padding: 3em 4em;
+	}
+
+}
+
+ .bluemixHome .footer-links {
+	padding: 2em .5em 1em .5em;
+	 text-align: center;
+	 color: rgba(255, 255, 255, 0.4);
+}
+
+ .bluemixHome .footer-links .footer-link {
+	display: inline-block;
+}
+
+ .bluemixHome .footer-links .footer-link:not(:last-child):after {
+	content: '/';
+}
+
+ .bluemixHome .footer-links .footer-link a {
+	text-decoration: none;
+	 color: white;
+}
+
+ .bluemixHome .footer-links .footer-link a:hover {
+	color: white;
+	 text-decoration: underline;
+}
+
+ @media (min-width: 767px) {
+	.bluemixHome .footer-links {
+		-webkit-box-flex: 1;
+		 -webkit-flex: 1;
+		 -ms-flex: 1;
+		 flex: 1;
+		 text-align: left;
+		 padding: 0;
+	}
+
+}
+
+
+}

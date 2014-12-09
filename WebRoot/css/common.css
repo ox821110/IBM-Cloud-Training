@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+body, div, label, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, p, blockquote, th, td{margin:0; padding:0; list-style:none; text-decoration:none;}
+body{background:#fff; color:#333; font:normal 12px/24px Helvetica, Tahoma, Arial, sans-serif; text-decoration:none; text-align:center;}
+input, checkbox, select, img{vertical-align:middle;}
+label{vertical-align:middle; font-family:Tahoma;}
+label input[type=checkbox]{vertical-align:middle;}
+img{border:none;}
+a{cursor:pointer;}
+a:link,
+a:visited{color:#333; text-decoration:none;}
+a:hover,
+a:active{color:#c00; text-decoration:none;}
+label{_font-family:Tahoma;}
+.tl{text-align:left;}
+.tr{text-align:right;}
+.tc{text-align:center;}
+.fl{float:left;}
+.fr{float:right;}
+
+.wrap{width:960px; margin:0 auto; text-align:left;}
+
+.head{height:54px; overflow:hidden;}
+.head .logo{display:inline-block; float:left; width:93px; height:54px; background:url(../images/logo_csdn.png) no-repeat left center;}
+.csdn-toolbar .logo .img { background: url(../images/logo_w.png) no-repeat 0 0; }
+.head .search{float:right; width:300px; height:24px; overflow:hidden; margin:14px 0 0; border:solid 1px #ccc;}
+.head .search .sear_input{float:left; width:266px; *width:264px; height:24px; *height:22px; padding:0 5px; border:none; *border:solid 1px #fff; color:#333; font-size:12px; line-height:24px; *line-height:22px;}
+.head .search .sear_btn{display:inline-block; float:left; width:24px; height:24px; overflow:hidden; border:none; background:url(../images/ico_search.gif) no-repeat center center; cursor:pointer;}
+
+.nav{overflow:hidden;}
+.nav .lev_1{
+	background-color: #FFFFFF;
+    border-bottom: 2px solid #E1E1E1;
+}
+.nav .lev_1:after{content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.nav .lev_1 ul, .nav .lev_2 .tabcontent { width: 960px; margin: 0 auto; }
+.nav .lev_1 li{ float:left; display: block; margin-right: 20px; }
+.nav .lev_1 li a{
+	display:block;
+	text-decoration:none;
+	color: #727272;
+	font-family: "微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    padding: 13px 6px;
+}
+.nav .lev_1 li a.current, .nav .lev_1 li a:hover{
+	border-bottom: 2px solid #DC3C00;
+    margin-bottom: -2px;
+    
+}
+.nav .lev_1 li a.current {
+	/*font-weight: bold;*/
+}
+
+
+.nav .lev_2{ overflow:hidden; background-color: #f5f5f5; height: 30px; line-height: 30px; }
+.nav .lev_2:after{content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.nav .lev_2 div{display:none;}
+.nav .lev_2 ul {}
+.nav .lev_2 li{float:left;}
+.nav .lev_2 li a{display:inline-block; height:35px; padding:0 20px; color:#333; text-decoration:none;}
+.nav .lev_2 li a:hover { background-color: #fff; color: #c00; }
+.nav .lev_2 #sc2{padding-left:55px;}
+.nav .lev_2 #sc3{padding-left:165px;}
+.nav .lev_2 #sc4{padding-left:260px;}
+.nav .lev_2 #sc5{padding-left:370px;}
+.nav .lev_2 #sc6{padding-left:460px;}

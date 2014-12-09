@@ -1,0 +1,157 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="http://player.youku.com/jsapi">
+player = new YKU.Player('youkuplayer',{
+styleid: '7',
+client_id: '79bcf4b8d277d2ae',
+vid: 'XODQyMDc2MTA0',
+show_related: false,
+autoplay: false
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+		
+	$('#notice-box').animate({bottom: 0}, 700);
+	$('#notice-box').find('.shut-notice').click(function(){
+		$('#notice-box').animate({bottom: -204}, 700);
+	});
+
+});
+</script>
+
+<script type="text/javascript">
+function opennew(){
+	var url = "http://www.bluemix.net?cm_mmc=EcoD_GCG-_-Bluemix_day-_-01-12-14::31-12-15-_-GCGBMDay2015";
+	var adPopup = window.open(url,"newwindow");
+	//adPopup.blur(); 
+	//adPopup.parent.youkuplayer.focus();
+}
+</script>
+<link href="css/main.css" type="text/css" rel="stylesheet">
+
+<title>IBM创新中心 Bluemix门户-首页</title>
+
+</head>
+
+<body onload="opennew()">
+<script id="toolbar-tpl-scriptId" prod="" skin="black" src="js/html.js" type="text/javascript"></script>
+
+<div class="bluemix-banner-con">
+	<div class="bluemix-banner">
+     <p style="margin-top:70px;">IBM Bluemix 体验之旅<br /></p>
+        <div style="width:1120px;float:left; margin-top:10px; margin-bottom:10px;">
+        <b style="background-color:#03a0c5; display:block; margin-left:90px; font-size:15px; font-family:'Microsoft Yahei'; color:#fff; font-weight:normal; float:left; padding:2px 10px; border-radius:4px;">IBM大中华区创新中心 推出</b>
+        </div>
+     <a href="https://ibm.biz/BluemixChina" target="_blank">免费试用</a>
+    </div>
+</div>
+
+<div class="bluemix-menu-con">
+	<div class="bluemix-menu">
+    	<a href="./index.html" class="active">首页</a>
+    	<a href="./registration.html" >注册指南</a>
+    	<a href="./video.html">视频教程</a>
+    	<a href="./labs.html" >动手实验</a>
+        <a href="./article.html" >精彩文章</a>
+        <a href="http://iicchina.mybluemix.net/" class="active" target="_blank">关于IBM创新中心</a>
+    </div>
+</div>
+<div class="center-container">
+  <dl class="bluemix-detail">
+ <dt>
+  盖世无双的 IBM Bluemix 的PaaS平台！</dt>
+ <dd>
+  <strong>IBM Bluemix 是什么？</strong>它是来自 IBM 的最新的云产品，它是一个基于 Cloud Foundry 开源项目的平台即服务 (PaaS) 产品，它使得组织和开发人员能够快速而又轻松地在云上创建、部署和管理应用程序。</dd>
+  <dd>Bluemix同时具备IBM软件、第三方产品及开放技术优势，为开发者提供开放、集成的环境和工具，在云中实现开发运营，让其有能力以消费品规模构建企业级的云应用。在市场与技术融合的趋势下，Bluemix的发布标志着在云端构建创新应用的时代正式开启。</dd>
+ <dd>
+   跟着视频教程一步一步学习如何将应用部署至Bluemix平台吧。想全面了解Bluemix，请到视频专区观看<b>中文视频教程</b>。</dd>
+</dl>
+<dl class="bluemix-video">
+ <dt>
+<div id="youkuplayer" style="width:400px;height:245px"></div></dt>
+ <dd class="video-tip">
+  5分钟带你部署 IBM Bluemix 平台</dd>
+</dl>
+ </div>
+
+<div class="process-con">
+	<div class="process">
+        <!-- 步骤 -->
+  		<div class="process-guide">
+ <div class="process01">
+  <b>旅程一</b><span><a href="./n2.html">免费注册Bluemix账号</a></span></div>
+ <div class="process02">
+  <b>旅程二</b><span><a href="./n3.html">观看创新中心专家制作的视频教程</a></span></div>
+ <div class="process03">
+  <b>旅程三</b><span><a href="./n4.html">亲手创建Bluemix应用</a></span></div>
+ <div class="process04">
+  <b>旅程四</b><span><a href="">阅读精彩的文章</a></span></div>
+</div>
+
+
+          	        </div>
+    </div>
+</div>
+
+<div class="experience">
+  	<h3>
+ IBM Bluemix精彩文章，您值得阅读&nbsp</h3>
+<dl>
+ <dt>
+  <img src="./images/article1.png" height="90" width="90" /></dt>
+ <dd class="experience-detail">
+  您听过说 IBM Cognos? 吗，那个世界级的数据分析和报告平台？答案或许是听说过。我们有机会在 IBM Bluemix上利用这样一个强大的平台吗？答案无疑是肯定的— 通过使用 Bluemix Embeddable Reporting 服务。通过本教程中，您能掌握利用 Bluemix 上的 Embeddable Reporting 服务来创建、开发和部署应用程序，并了解如何将 Cognos 环境中设计的报告模型与 Bluemix 相集成。赶紧阅读这篇精彩文章<a href="http://ibm.biz/reporting" target="_blank">“Leverage IBM Cognos on IBM Bluemix using the Embeddable Reporting service”</a>。</dd>
+ <dd class="author-name">
+  作者：&nbsp唐春斌&nbsp&nbsp张春光&nbsp&nbsp朱挺</dd>
+</dl>
+<dl>
+ <dt>
+  <img src="./images/article2.png" height="90" width="90" /></dt>
+ <dd class="experience-detail">
+  Bluemix让你只有想不到的，没有做不到的。随着移动和社交应用的到来，越来越多的人开始使用移动智能手机工作，出差在外总是需要用到手机端的App预约公司内部和外部的资源和服务，例如会议室预定，车辆预约等等。如今在Bluemix上仅需要一小时，就能完成这样一套应用的开发和部署，用两个词概括就是：So easy! 是不是很想亲手试一试，IBM创新中心的Bluemix专家为大家撰写了Step by Step的教程，还不赶紧猛戳 IBM DeveloperWorks上的文章<a href="http://ibm.biz/bluemixarticle" target="_blank">“Build an Android app to reserve meeting facilitie”</a>。</dd>
+ <dd class="author-name">
+  作者：&nbsp胡磊&nbsp&nbsp胡正育</dd>
+
+</dl>
+<dl>
+ <dt>
+  <img src="./images/article3.png" height="90" width="90" /></dt>
+ <dd class="experience-detail">
+已经有了移动应用开发的Idea，却不知道如何选择合适的平台来开发和部署 —— 找到IBM Bluemix就对了！请看IBM Bluemix专家唐春斌为您庖丁解牛，带来深入剖析Bluemix上移动应用开发的最佳实践。将Bluemix移动应用开发分为三层架构，即移动终端应用层、应用服务器层和数据库层，结构灵活，实现简单，几乎可以适用于任何移动应用开发的场景。马上告诉大家这篇IBM DeveloperWorks上的文章地址，<a href="http://www.ibm.com/developerworks/cn/cloud/library/cl-bluemix-mobile3tier/index.html" target="_blank">《IBM Bluemix 上移动应用开发三层架构原型》</a>。</dd>
+ <dd class="author-name">
+  作者：&nbsp唐春斌</dd>
+
+</dl>
+<h4><a href="./article.html" >更多精彩文章...</a></h4>
+</div>
+<div id="dijit__WidgetsInTemplateMixin_5" class="bluemixHome">
+	<footer class="bluemixHome footer">
+	<div id="footer">
+		<div id="footer_content">
+			<a target="12_blank" href="https://www-304.ibm.com/partnerworld/wps/servlet/ContentHandler/isv_inv_tsp_iic_shanghai_overview"><font color=white>IBM大中华区创新中心</font></a>
+			<br/><br/>
+			
+				联系我们：<a href="mailto:bluemixcn@sina.com"><font color=white>bluemixcn@sina.com</font></a>
+
+		</div>
+	</div>
+	</footer>
+</div>
+
+<div class="notice-box" id="notice-box">
+  <p class="para1">Bluemix全球大赛</p>
+  <p class="para2">活动期至</p>
+  <p class="para3">2015年3月</p>
+  <a href="http://appchallenge.mybluemix.net/" target="_blank"><p class="para4">赶快参与赢取丰富大奖！</p></a>
+  <div class="shut-notice"></div>
+</div>
+</body>
+</html>
