@@ -122,6 +122,7 @@ html { overflow-x: hidden; }
 .guide-detail{font-family:'Microsoft Yahei'; font-size:16px; color:#333;}
 
 .guide-con{width:940px; margin:30px auto; overflow: hidden; text-align:left;}
+.guide-lab{width:940px; margin:auto auto auto 700px; overflow: hidden; text-align:left;}
 .con-l{width:446px; overflow: hidden; float:left;}
 .con-c{width:36px; overflow: hidden; float:left; margin-left: 6px;}
 .con-r{width:446px; overflow: hidden; float:right;}

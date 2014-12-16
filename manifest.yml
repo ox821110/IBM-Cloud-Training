@@ -1,0 +1,7 @@
+applications:
+- name: BluemixChina
+  memory: 512M
+  host: bluemixchina
+  domain: mybluemix.net
+  services: {
+    }
