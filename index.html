@@ -128,15 +128,7 @@
 
             
         </li>
-      
 
-    <li class="divider"></li>
-
-    <li>
-        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
-        </a>
-    </li>
 </ul>
 
 
@@ -144,7 +136,87 @@
             
         
     </div>
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
 
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Lab Overview</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>With this lab, you will deploy and manage a Kubernetes cluster in IBM&#xAE; Cloud Kubernetes Service (IKS). Learn how to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster.</p>
+<p>In this tutorial, you act as a developper. You configure a custom Kubernetes cluster that is used to deploy and test a web application for managing todos. The front end is written in Angular and the reminders are being stored in a Cloudant NoSQL dababase. All run on Node.js, in Docker container managed by Kubernetes.</p>
+<h2 id="objectives">Objectives</h2>
+<ul>
+<li>Create a cluster with 1 worker pool that has 1 worker node.</li>
+<li>Install the CLIs for running Kubernetes commands and managing Docker images in IBM Cloud Container Registry.</li>
+<li>Create a private image repository in IBM Cloud Container Registry to store your images.</li>
+<li>Add the Cloudant NoSQL DB service to the cluster so that any app in the cluster can use that service.</li>
+</ul>
+<h2 id="architecture">Architecture</h2>
+<p>     <a href="images/kubelabarchi.png" rel="grouped" title="" target="_self" class="fancybox">
+       <img src="images/kubelabarchi.png" alt="">
+     </a></p>
+<ol>
+<li>A developer clone an existing web application from Github.</li>
+<li>Run the application locally and produce a Docker container image.</li>
+<li>The image is pushed to a namespace in the Container Registry Service.</li>
+<li>The application is deployed to a Kubernetes cluster.</li>
+<li>Users access the application.</li>
+</ol>
+<h2 id="services-used">Services used</h2>
+<p>This tutorial uses the following runtimes and services:</p>
+<ul>
+<li><a href="https://cloud.ibm.com/containers-kubernetes/launchRegistryView" target="_blank">IBM Cloud Container Registry</a></li>
+<li><a href="https://cloud.ibm.com/containers-kubernetes/catalog/cluster" target="_blank">IBM Cloud Kubernetes Service</a></li>
+<li><a href="https://cloud.ibm.com/catalog/services/continuous-delivery" target="_blank">Continuous Delivery</a></li>
+<li><a href="https://cloud.ibm.com/catalog/services/cloudant" target="_blank">Cloudant</a></li>
+<li><a href="https://cloud.ibm.com/observe/logging/create" target="_blank">IBM Log Analysis with LogDNA</a></li>
+<li><a href="https://cloud.ibm.com/observe/monitoring/create" target="_blank">IBM Cloud Monitoring with Sysdig</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
     <div class="book-body">
         
             <div class="body-inner">
@@ -183,15 +255,7 @@
                 
             </div>
 
-                 <a href="prepare-prereq.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Pre-Requisites">
-                    <i class="fa fa-angle-right"></i>
-                </a>           
-                
-                
-                <a href="prepare-prereq.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Pre-Requisites">
-                    <i class="fa fa-angle-right"></i>
-                </a>
-                
+
             
         
     </div>
